@@ -7,12 +7,12 @@ body {
 
 .header {
     background-color: #1F2937;
-    color:white;
+    color: white;
 }
 
 .headertext {
     font-size: 24px;
-    color:F9FAf8;
+    color: F9FAf8;
     font-weight: bold;
 }
 
@@ -40,24 +40,24 @@ a {
 }
 
 h1 {
-    color:white;
+    color: white;
     font-size: 48px;
 }
 
 .Header2 {
-    display:flex;
-    margin-bottom:200px;
+    display: flex;
+    margin-bottom: 200px;
     justify-content: center;
     align-self: center;
 }
 
 .infotext {
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin-top:30px;
-    margin-bottom:30px;
-    font-size:36px;
-    color:#1F2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #1F2937;
     font-weight: bolder;
 }
 
@@ -68,16 +68,16 @@ h1 {
 }
 
 .info {
-    max-width:150px;
+    max-width: 150px;
 }
 
 .QuoteContent {
-    display:flex;
+    display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    color:#1F2937;
+    color: #1F2937;
     font-weight: lighter;
     justify-content: center;
     padding-top: 80px;
@@ -85,16 +85,22 @@ h1 {
 }
 
 .Quote {
-    
+    max-width: 750px;
+    align-self: center;
 }
 
 .Thor {
-
+    align-self: flex-end;
+    margin-right: 400px;
+    color: #1F2937;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 button {
     background-color: #3882F6;
-    color:white;
+    color: white;
     border: none;
     padding: 10px 25px;
     border-radius: 8px;
@@ -105,7 +111,7 @@ button {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #1F2937;
-    color:white;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,3 +123,37 @@ button {
     border-radius: 8px;
 }
 
+.BottomContent {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin:100px 300px;
+    border-radius: 8px;
+    padding:30px 30px;
+    gap: 80px;
+}
+
+.BottomContent button {
+    border: 2px solid white;
+}
+
+.textcontainer {
+    margin: 0;
+    padding: 0;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.BottomContent p {
+    margin: 0px;
+    color: #E5E7EB;
+}
